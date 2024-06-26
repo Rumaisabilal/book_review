@@ -1,0 +1,60 @@
+
+body {
+    background: url('https://images.unsplash.com/photo-1544640808-32ca72ac7f37?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+.container {
+    text-align: center;
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text shadow for emphasis */
+}
+p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.btn-custom {
+    font-size: 1.25rem;
+    padding: 10px 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: #fff;
+}
+.btn-custom:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+.reviews {
+    margin-top: 40px;
+    text-align: left;
+    color: #fff; /* Adjusting review text color */
+}
+.review {
+    background: rgba(0, 0, 0, 0.5); /* Adjusting review background transparency */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding box shadow for depth */
+}
+.review h5 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.review p {
+    margin-bottom: 5px;
+    font-size: 1.2rem; /* Increasing font size for better readability */
+}
